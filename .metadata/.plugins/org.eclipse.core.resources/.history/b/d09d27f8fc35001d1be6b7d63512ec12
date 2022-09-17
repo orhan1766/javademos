@@ -1,0 +1,23 @@
+package sesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf = 'İ';
+		
+		char[] kalinHarfler = {'A','O','U','I'};
+		char[] inceHarfler = {'E','Ö','Ü','İ'};
+		
+		for (char inceHarf : inceHarfler) {
+			if (harf == inceHarf) {
+				System.out.println("Girilen harf incedir.");
+			}
+		}
+		for (char kalinHarf : kalinHarfler) {
+			if (harf == kalinHarf) {
+				System.out.println("Girilen harf kalındır.");
+			}
+		}
+	}
+
+}
